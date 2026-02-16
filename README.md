@@ -65,3 +65,7 @@ cargo install flamegraph
 # Generate flame graph
 cargo flamegraph --bin relay
 ```
+
+## 5. Loom
+Loom is a testing tool for concurrent Rust code. It runs a test many times, permuting the possible concurrent executions
+https://github.com/tokio-rs/loom
