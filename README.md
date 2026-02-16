@@ -75,3 +75,8 @@ https://github.com/tokio-rs/loom
 Tower is a library of modular and reusable components for building robust networking clients and servers.
 Generic components, like timeout, rate limiting, and load balancing, can be modeled as Services that wrap some inner service and apply additional behavior before or after the inner service is called. This allows implementing these components in a protocol-agnostic, composable way. Typically, such services are referred to as middleware.
 https://github.com/tower-rs/tower/tree/master/guides
+
+## 7. Governor
+Governor aims to be a very efficient and ergonomic way to enforce rate limits in Rust programs. It implements the Generic Cell Rate Algorithm and keeps state in a very efficient way.
+
+https://docs.rs/governor/latest/governor/
